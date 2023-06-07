@@ -1,0 +1,16 @@
+.offreInfos table{
+    width: 100%;
+    min-width: 750px;
+}
+.offreInfos table th{
+    padding-bottom: 12px;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid var(--blue);
+}
+.offreInfos table tr td{
+    padding-top: 20px;
+}
+.offreInfos table tr td:last-child{
+    cursor: pointer;
+}
