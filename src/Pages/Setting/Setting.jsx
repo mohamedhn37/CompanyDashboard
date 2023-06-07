@@ -28,7 +28,7 @@ const Setting = () => {
                   </div>
                 </div>
                 <div className="col-md-4">
-                  <button className='btn btn-primary'>Valider</button>
+                  <button className='btn btn-primary my-4'>Valider</button>
                 </div>
               </div>
             </div>

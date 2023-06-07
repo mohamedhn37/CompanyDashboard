@@ -147,7 +147,7 @@ const Offre = () => {
                         </div>
                         {showHistoriqueOffre && (
                             <div className="UserFormations">
-                                <div className="offreInfos">
+                                <div className="offreInfos table-responsive">
                                     <table>
                                         <thead>
                                             <tr>

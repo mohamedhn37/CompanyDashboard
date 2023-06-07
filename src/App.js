@@ -15,7 +15,8 @@ function App() {
     <div className="App">
       <div className={`main ${isActive ? 'active' : ''}`}>
         <AppHeader toggleMenu={toggleMenu}/>
-        <PageContent></PageContent>      </div>
+        <PageContent></PageContent>      
+        </div>
       <SideMenu isActive={isActive}></SideMenu>
     </div>
   );
