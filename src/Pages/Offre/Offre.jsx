@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Offre.css'
-import { FaHistory, FaPenAlt, FaPlusSquare, FaTrashAlt } from 'react-icons/fa'
+import { FaEye, FaHistory, FaPenAlt, FaPlusSquare, FaTrashAlt } from 'react-icons/fa'
+import { NavLink } from 'react-router-dom';
 
 const Offre = () => {
 
@@ -11,7 +12,7 @@ const Offre = () => {
     };
 
     /*pour controller l'affichage du historique d'offre*/
-    const [showHistoriqueOffre, setShowHistoriqueOffre] = useState(false);
+    const [showHistoriqueOffre, setShowHistoriqueOffre] = useState(true);
     const toggleHistoriqueOffre = () => {
         setShowHistoriqueOffre(!showHistoriqueOffre);
     };
@@ -26,7 +27,7 @@ const Offre = () => {
                             <h4 className='mb-0'>Ajouter/Modifier un offre</h4>
                         </div>
                         {showAddOffre && (
-                            <div className="UserFormations">
+                            <div className="UserFormations mb-4">
                                 <form className='FormationForm'>
                                     <div className="row my-3">
                                         <div className="col-md-6">
@@ -154,8 +155,6 @@ const Offre = () => {
                                                 <th>Titre d'offre</th>
                                                 <th>Type d'offre</th>
                                                 <th>Nombre de postes</th>
-                                                <th>Niveau d'étude</th>
-                                                <th>Niveau d'expérience</th>
                                                 <th>Date fin de postualtion</th>
                                                 <th>Suivi l'offre</th>
                                             </tr>
@@ -165,36 +164,39 @@ const Offre = () => {
                                                 <td><span>Développeur Front-End</span></td>
                                                 <td><span>CDI</span></td>
                                                 <td><span>10</span></td>
-                                                <td><span>BAC+5</span></td>
-                                                <td><span>Entre 2 et 5 ans</span></td>
                                                 <td><span>17-06-2023</span></td>
                                                 <td>
-                                                    <FaPenAlt className='text-warning'/>
-                                                    <FaTrashAlt className='text-danger ms-3'/>
+                                                    <NavLink to='/Postulation'>
+                                                        <button className='btn btn-dark me-3' title='Postulation'><FaEye className='text-success'/></button>
+                                                    </NavLink>
+                                                    <button className='btn btn-dark me-3' title='Modifier'><FaPenAlt className='text-warning'/></button>
+                                                    <button className='btn btn-dark' title='Supprimer'><FaTrashAlt className='text-danger'/></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td><span>Développeur Front-End</span></td>
                                                 <td><span>CDI</span></td>
                                                 <td><span>10</span></td>
-                                                <td><span>BAC+5</span></td>
-                                                <td><span>Entre 2 et 5 ans</span></td>
                                                 <td><span>17-06-2023</span></td>
                                                 <td>
-                                                    <FaPenAlt className='text-warning'/>
-                                                    <FaTrashAlt className='text-danger ms-3'/>
+                                                    <NavLink to='/Postulation'>
+                                                        <button className='btn btn-dark me-3' title='Postulation'><FaEye className='text-success'/></button>
+                                                    </NavLink>
+                                                    <button className='btn btn-dark me-3' title='Modifier'><FaPenAlt className='text-warning'/></button>
+                                                    <button className='btn btn-dark' title='Supprimer'><FaTrashAlt className='text-danger'/></button>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td><span>Développeur Front-End</span></td>
                                                 <td><span>CDI</span></td>
                                                 <td><span>10</span></td>
-                                                <td><span>BAC+5</span></td>
-                                                <td><span>Entre 2 et 5 ans</span></td>
                                                 <td><span>17-06-2023</span></td>
                                                 <td>
-                                                    <FaPenAlt className='text-warning'/>
-                                                    <FaTrashAlt className='text-danger ms-3'/>
+                                                    <NavLink to='/Postulation'>
+                                                        <button className='btn btn-dark me-3' title='Postulation'><FaEye className='text-success'/></button>
+                                                    </NavLink>
+                                                    <button className='btn btn-dark me-3' title='Modifier'><FaPenAlt className='text-warning'/></button>
+                                                    <button className='btn btn-dark' title='Supprimer'><FaTrashAlt className='text-danger'/></button>
                                                 </td>
                                             </tr>
                                         </tbody>

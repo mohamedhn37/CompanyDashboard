@@ -43,14 +43,6 @@ const SideMenu = ({ isActive }) => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/CondidatureGestion">
-              <span className="icon">
-                <FaBoxOpen className="ico" />
-              </span>
-              <span className="title">Gestion des condidature</span>
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/Setting">
               <span className="icon">
                 <FaCog className="ico" />

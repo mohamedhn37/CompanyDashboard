@@ -108,8 +108,8 @@ const Profil = () => {
                       <h5>Réseaux sociaux</h5>
                     </div>
                     <div className="form-group mt-3">
-                      <label htmlFor="WebSite" className='form-label'>WebSite URL</label>
-                      <input type='text' id="WebSite" className="form-control" />
+                      <label htmlFor="WebSite" className='form-label'>WebSite URL <span className='text-danger'>*</span></label>
+                      <input type='text' id="WebSite" required className="form-control" />
                     </div>
                     <div className="form-group mt-3">
                       <label htmlFor="LinkedIn" className='form-label'>LinkedIn</label>

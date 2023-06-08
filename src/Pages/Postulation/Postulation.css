@@ -1,0 +1,54 @@
+.PostulationContent table{
+    width: 100%;
+    min-width: 750px;
+}
+.PostulationContent table th{
+    padding-bottom: 12px;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid var(--blue);
+}
+.PostulationContent table tr td{
+    padding-top: 20px;
+}
+.PostulationContent table tr td textarea{
+    outline: none;
+    resize: none;
+}
+.popup{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.infosCondidatContent{   
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 40px;
+    border: none;
+    border-radius: 15px;
+
+}
+.infosCondidat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reponse{
+    display: flex;
+    align-items: center;
+}
