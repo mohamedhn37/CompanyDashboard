@@ -23,10 +23,10 @@ const Dashboard = () => {
                   </NavLink>
                 </div>
                 <div className="col-md-6">
-                  <NavLink to="/CondidatureGestion" className='text-decoration-none'>
+                  <NavLink to="/Postulation" className='text-decoration-none'>
                     <div className="dashNavigate text-danger">
                       <FaFileAlt className='fs-1' />
-                      <h4 className='mb-0'>Emplois appliqués</h4>
+                      <h4 className='mb-0'>Postulation appliqués</h4>
                     </div>
                   </NavLink>
                 </div>

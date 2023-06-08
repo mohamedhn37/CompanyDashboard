@@ -14,10 +14,8 @@ const Postulation = () => {
     <>
       <div className="container my-5">
         <div className="row">
-          <div className="col-md-12">
-            <h3>Candidatures d'offre 'Reference d'offre'</h3>
-          </div>
           <div className="col-md-12 my-4">
+            <h3 className='mb-4'>Candidatures d'offre 'Reference d'offre'</h3>
             <div className="UserFormations">
               <div className="PostulationContent table-responsive">
                 <table>
@@ -76,6 +74,23 @@ const Postulation = () => {
                       </td>
                     </tr>
                   </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-12 my-4">
+            <h3 className='mb-4'>Candidatures d'offre 'Reference d'offre'</h3>
+            <div className="UserFormations">
+              <div className="PostulationContent table-responsive">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Infos Condidat</th>
+                      <th>CV</th>
+                      <th>Résponse</th>
+                    </tr>
+                  </thead>
+                  <h4 className='mt-4 text-center text-warning'>pas de postulation encore</h4>
                 </table>
               </div>
             </div>

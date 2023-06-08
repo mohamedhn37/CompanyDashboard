@@ -174,23 +174,10 @@ const Offre = () => {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td><span>Développeur Front-End</span></td>
-                                                <td><span>CDI</span></td>
-                                                <td><span>10</span></td>
-                                                <td><span>17-06-2023</span></td>
-                                                <td>
-                                                    <NavLink to='/Postulation'>
-                                                        <button className='btn btn-dark me-3' title='Postulation'><FaEye className='text-success'/></button>
-                                                    </NavLink>
-                                                    <button className='btn btn-dark me-3' title='Modifier'><FaPenAlt className='text-warning'/></button>
-                                                    <button className='btn btn-dark' title='Supprimer'><FaTrashAlt className='text-danger'/></button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><span>Développeur Front-End</span></td>
-                                                <td><span>CDI</span></td>
-                                                <td><span>10</span></td>
-                                                <td><span>17-06-2023</span></td>
+                                                <td><span>Aide Comptable</span></td>
+                                                <td><span>Stage</span></td>
+                                                <td><span>2</span></td>
+                                                <td><span>15-06-2023</span></td>
                                                 <td>
                                                     <NavLink to='/Postulation'>
                                                         <button className='btn btn-dark me-3' title='Postulation'><FaEye className='text-success'/></button>
